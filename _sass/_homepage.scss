@@ -1,0 +1,188 @@
+// Content Home Page
+
+#frontpage-pitch {
+	width: 80%;
+	margin:auto;
+	text-align: center;
+	line-height: 3.5rem;
+	@media screen and (max-width: $mobilesize) {
+		line-height: 2rem;
+	}
+}
+
+
+#frontpage-cta {
+	margin-top: 10px;
+}
+
+ // Team
+ 
+#frontteam {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+}
+
+#frontteam-title {
+	width: 100%;
+	text-align: center;
+	color: $maincolor;
+}
+
+#frontteam-block {
+	width: 100%;
+	max-width: 1000px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 20px auto;
+	padding: 5px;
+}
+
+#frontteam-text {
+	width: calc(100% - 210px);
+	min-width: 500px;
+	@media screen and (max-width: $mobilesize) {
+		width: 100%;
+		min-width: auto;
+	}
+}
+
+.frontteam-img {
+	margin-right: 10px;
+	width: 200px;
+	height:200px;
+	overflow: hidden;
+	border-radius: 50%;
+	@media screen and (max-width: $mobilesize) {
+		margin: auto auto 10px auto;
+		border-radius: 5px;
+	}
+}
+
+.frontteam-description {
+	padding: 3px;
+}
+
+#frontteam-more {
+	width:100%;
+	text-align: center;
+	margin: auto;
+	color: maroon;
+	text-decoration: none;
+	font-size: 120%;
+}
+
+// Unique Selling Point
+#frontspecial-background {
+	width:100%;
+	background: $maincolor;
+	margin-bottom: 20px;
+	color: white;
+}
+
+#frontspecial {
+	padding: 30px;
+	text-align: center;
+	@media screen and (max-width: $mobilesize) {
+		padding: 10px 0px;;
+	}	
+}
+
+#frontspecial-title {
+	line-height: 2.6rem;
+	margin-bottom: 20px;
+	@media screen and (max-width: $mobilesize) {
+		line-height: 1.8rem;
+		margin-bottom: 10px;
+	}	
+}
+
+// Testimonials
+#fronttestimonial {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#fronttestimonial-title {
+	margin-bottom: 20px;
+}
+
+#fronttestimonial-slider {
+	height: 300px;
+	background-image: url(/trainmybrain/wp-content/uploads/2018/07/CF-Girl-e1532549071847.jpeg);
+	background-color: $maincolor;
+	background-blend-mode: lighten;
+	background-size: cover;
+	background-position: center;
+	display:flex;
+	@media screen and (max-width: $mobilesize) {
+		width: 100%;
+		height: 300px;	
+		overflow: hidden;
+	}
+}
+
+#fronttestimonial-slider-text {
+	font-size: 120%;
+	background: rgba(0,0,0,0.5);
+	width:600px;
+	height: 200px;
+	margin:auto;
+	display:flex;
+	color: white;
+	@media screen and (max-width: $mobilesize) {
+		width: 100%;
+		height:100%;
+	}
+	span {
+		height: auto;
+		width: 80%;
+		margin:auto;
+	}
+	p {
+		display: inline;
+		line-height: 2.2rem;
+	}
+}
+
+.slider-left {
+	position: relative;
+	right:280px;
+	display: inline;
+	bottom: 50%;
+	z-index: 999;
+	@media screen and (max-width: $mobilesize) {
+		display:none;
+	}
+}
+
+.slider-right {
+	position: relative;
+	left: 280px;
+	display: inline;
+	bottom: 50%;
+	z-index: 999;
+	@media screen and (max-width: $mobilesize) {
+		display:none;
+	}
+}
+
+.testimonialquote {
+	color: $maincolor;
+}
+
+.fronttestimonial-slider--name {
+	font-weight: 700;
+	line-height: 1.5rem;
+}
+
+.slide {
+	padding: 20px 40px;
+	margin: auto;
+	@media screen and (max-width: $mobilesize) {
+		padding: 5px;
+		width:90%;
+		margin: 20px 5px;
+	}
+}
