@@ -98,6 +98,35 @@
 	}	
 }
 
+#frontspecial .pt-cv-wrapper {
+	padding: 15px 0px 0px 0px;
+}
+
+#frontspecial .pt-cv-title {
+	a {
+		color: white;
+	}
+}
+
+#frontspecial .pt-cv-readmore {
+    color: $maincolor !important;
+    background-color: white !important;
+    border: none !important;
+	padding: 2px 6px;
+	border-radius: 0px;
+	font-weight: 700;
+	margin-top: 15px;
+}
+
+#special-more-blogs {
+	width: 100%;
+	text-align: center;
+	font-size: 150%;
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
 // Testimonials
 #fronttestimonial {
 	text-align: center;

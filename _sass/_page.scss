@@ -1,0 +1,51 @@
+#page-content {
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	justify-content: space-evenly;
+}
+
+
+#page-subbanner-container {
+	position: relative;
+	background-image: url(/trainmybrain/wp-content/uploads/2018/07/Sunset.jpeg);
+	height: 30vh;
+	background-size: cover;
+	background-position: 50%;
+}
+
+#page-testimonials-title {
+	position: absolute;
+	top: 0;
+	line-height: 30vh;
+	width: 100%;
+	text-align: center;
+	background: rgba(255,255,255,0.5);
+}
+
+#page-testimonials {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-column-gap: 0.5em;
+	grid-row-gap: 0.5em;
+	width: 1200px;
+}
+
+
+.col-4 {
+	grid-column: span 4;
+	background-size: cover;
+	background-position: center;
+	p {
+		padding: 15px;
+	}
+	&.text {
+		border: 3px solid $maincolor;
+		line-height: 1.5rem;
+		font-size: 120%;
+	}
+	span {
+		font-weight: 700;
+		display: block;
+	}
+}

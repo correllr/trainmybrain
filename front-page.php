@@ -38,6 +38,7 @@
 <div id="frontspecial-background">
 	<div id="frontspecial" class="itemcont">
 		<?php echo do_shortcode("[pt_view id=a4a08e44di]"); ?>
+	<a id="special-more-blogs" href="/blogs/">More blogs and videos here</a>
 		<!--
 		<h1 id="frontspecial-title">
 		Social media links and info

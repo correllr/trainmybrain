@@ -50,15 +50,12 @@
 	color: $maincolor;
 }
 
-.pt-cv-wrapper .btn {
-	color: $maincolor;
-	background: none;
-	border: none;
-	margin-top: 20px;
-	padding: 0;
-	&:hover, &:active, &:focus {
+#blog-page-container .pt-cv-readmore {
+    color: $maincolor;
+    background: none !important;
+    border: none !important;
+	padding: 10px 0px 0px 0px;
+	&:hover {
 		font-weight: 900;
-		background: none;
-		color: $maincolor;
 	}
 }

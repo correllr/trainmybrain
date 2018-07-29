@@ -28,7 +28,10 @@
 				
 			
 <!--- SITE HEADER --->	
-	<?php get_template_part('contact'); ?>
+	<!--  php tag removed
+	get_template_part('contact'); 
+	-->
+	
 	<header class="site-header">
 
 	
@@ -60,7 +63,7 @@
 		-->
 		<a id="textlogo" href="<?php echo home_url(); ?>">
 			<h1>Train My Brain</h1>
-			<h2>By Dr Jake Cooke</h2>
+			<h2>By Jake Cooke</h2>
 		</a>
 		<div id="header-menu">
 			<?php

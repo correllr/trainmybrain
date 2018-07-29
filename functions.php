@@ -24,6 +24,8 @@ register_nav_menus(array(
 // Featured images
 
 add_theme_support( 'post-thumbnails' );
+add_image_size( 'square-thumbnail', 400, 400, true );
+add_image_size( 'blog-banner', 2000, 800, true );
 
 
 
