@@ -27,12 +27,12 @@
 			MChiro, DACNB
 			</h3>
 			<p class="frontteam-description">
-			Dr Jake Cooke graduated from AECC in 2009. He is a board-certified Functional Neurologist, with a diploma from the American Chiropractic Neurology Board. Jake currently works in a dedicated functional neurology practice in London, as well as a Chiropractic Clinic in Malden, Surrey. He also owns a boat.
+			My singular priority is to help you reach your goal. Whether that’s to be pain free, run a marathon or simply pick up your child. My approach is honest, evidence based and patient centered. I am one of the few chiropractors in the UK to have passed the American Chiropractic Neurology Board exams and spend my weekends teaching neurology seminars to chiropractors, physiotherapists and occupational therapists both in the UK and Europe. The nervous system controls your posture, coordination and pain. I use latest research, treatment techniques and rehabilitation exercises to ensure that you are as healthy and strong as you want to be.
 			</p>
 		</span>
 	</div>
 	
-	<a id="frontteam-more" href="#">Read more about Jake here</a>
+	<!-- <a id="frontteam-more" href="#">Read more about Jake here</a> -->
 </div>
 
 <div id="frontspecial-background">
