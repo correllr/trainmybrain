@@ -14,6 +14,7 @@
 
 <div id="contact-container" class="itemcont">
 	<div id="contact-clinic-1" class="contact-clinic">
+		<h3>Clinic in New Malden</h3>
 		<p>
 			The Chiropractic Clinic<br>
 			157 Burlington Road<br>
@@ -31,17 +32,19 @@
 		</div>		
 	</div>
 	<div id="contact-jake" class="contact-clinic">
+		<h3>Contact me directly</h3>
 		<div id="contact-form">
-		
+			<?php echo do_shortcode('[contact-form-7 id="65" title="Contact Form"]'); ?>
 		</div>
 		<a href="mailto:jake@trainmybrain.uk">
 			Email to jake@trainmybrain.uk
 		</a>
 		<p>
-			For clinicians interested in booking a seminar, please go to <a href="http://www.bcneuro.co.uk">B C Neuro</a> for more information
+			For clinicians interested in booking a seminar, please go to <a id="bcneurolink" href="http://www.bcneuro.co.uk">B C Neuro</a> for more information
 		</p>
 	</div>
 	<div id="contact-clinic-2" class="contact-clinic">
+		<h3>Clinic in Ealing</h3>
 		<p>
 			Neuroworks<br>
 			31 The Mall<br>

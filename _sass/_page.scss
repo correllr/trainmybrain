@@ -3,6 +3,13 @@
 	flex-wrap: wrap;
 	margin: auto;
 	justify-content: space-evenly;
+	h2 {
+		padding: 20px;
+	}
+	h3 {
+		color: $maincolor;
+		padding: 10px 0px;
+	}
 }
 
 

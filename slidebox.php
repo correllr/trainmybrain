@@ -11,40 +11,50 @@
 			<div class="slide">
 				<div class="slide-text">
 					<i class="fas fa-quote-left fa-sm testimonialquote"></i>
-						I was thoroughly impressed by his ability to teach and would strongly recommend him for in-house CPD seminars
+						I have just finished my 5th session and my shoulder has almost made a full recovery. Jake is professional, reliable and friendly with his patient's needs' 
 					<i class="fas fa-quote-right fa-sm testimonialquote"></i>
 					<span class="fronttestimonial-slider--name">
-						<br><br><nobr>Gruff Parsons</nobr><br>Head of Performance, London Scottish Rugby Club.
+						<br><br><nobr>Amy</nobr><br>Teacher
 					</span>
 				</div>
 			</div>
 			<div class="slide">
 				<div class="slide-text">
 					<i class="fas fa-quote-left fa-sm testimonialquote"></i>
-						Jake’s methods of learning has been essential in me getting my qualifications, and enhancing my clinical knowledge.
+						I have found Jake’s approach, treatment, exercise programme, guidance and encouragement excellent. I would highly recommend Jake and the Clinic
 					<i class="fas fa-quote-right fa-sm testimonialquote"></i>
 					<span class="fronttestimonial-slider--name">
-						<br><br><nobr>Robert Correll</nobr><br>MChiro, DACNB
+						<br><br><nobr>Peter</nobr><br>
 					</span>
 				</div>
 			</div>
 			<div class="slide">
 				<div class="slide-text">
 					<i class="fas fa-quote-left fa-sm testimonialquote"></i>
-						Dr Cooke is an excellent teacher, drawing on his extensive knowledge to create inspiring and applicable seminars.
+						He has completely sorted my neck and has given me exercises to do which are strengthening my hip. I would have no hesitation in recommending him to anybody
 					<i class="fas fa-quote-right fa-sm testimonialquote"></i>
 					<span class="fronttestimonial-slider--name">
-						<br><br><nobr>Kaye Helsen</nobr><br>MChiro
+						<br><br><nobr>Mary</nobr><br>Air hostess
 					</span>
 				</div>
 			</div>
 			<div class="slide">
 				<div class="slide-text">
 					<i class="fas fa-quote-left fa-sm testimonialquote"></i>
-						Jake gave us an seminar on the cerebellum in a small group. I haven’t studied any neurology previously, but now I’m keen to learn more. Really recommended.
+						Excellent service, and would recommend to anyone – thanks for fixing me!
 					<i class="fas fa-quote-right fa-sm testimonialquote"></i>
 					<span class="fronttestimonial-slider--name">
-						<br><br><nobr>Nick Metcalfe</nobr><br>MChiro
+						<br><br><nobr>Hannah</nobr><br>Accountant
+					</span>
+				</div>
+			</div>
+			<div class="slide">
+				<div class="slide-text">
+					<i class="fas fa-quote-left fa-sm testimonialquote"></i>
+						He gave me a comprehensive plan to get better....which I most definitely have! Would very highly recommend
+					<i class="fas fa-quote-right fa-sm testimonialquote"></i>
+					<span class="fronttestimonial-slider--name">
+						<br><br><nobr>Mr Fox</nobr><br>
 					</span>
 				</div>
 			</div>
