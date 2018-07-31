@@ -1,0 +1,50 @@
+#resources-title {
+	padding: 30px 0px 0px 0px;
+}
+
+#resources-content {
+	line-height: 1.5rem;
+	h2 {
+		line-height: 1.8rem;
+		padding: 25px 0px 15px;
+		color: $maincolor;
+		width: 100%;
+		text-align: center;
+	}
+	h3 {
+		font-weight: 700;
+	}
+	img {
+		display: block;
+		height: auto;
+		max-width: 400px;
+	}
+	a {
+		color: white;
+		background: $maincolor;
+		padding: 4px 8px;
+		border-radius: 3px;
+	}
+	p {
+		padding: 5px 0px;
+	}
+}
+
+#resources-split {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.resources-col {
+	width: 45%;
+	margin: 0px auto;
+	min-width: 400px;
+}
+
+.resources-item {
+	padding: 20px 0px;
+	border-bottom: 3px solid $maincolor;
+	&:first-of-type {
+		border-top: 3px solid $maincolor;
+	}
+}

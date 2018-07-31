@@ -6,7 +6,7 @@
 	<h1 id="frontpage-pitch-text">
 	Chiropractic and Functional Neurology from Dr Jake Cooke. Treatment of the nervous system and muscles. For relieving back pain, neck pain, hip pain, shoulder pain, headaches ...
 	</h1>
-	<a id="frontpage-cta" class="btn" href="/trainmybrain/courses-and-prices/">
+	<a id="frontpage-cta" class="btn" href="/trainmybrain/why-train-my-brain/">
 	Learn More
 	</a>
 </div>
@@ -53,7 +53,7 @@
 <div id="fronttestimonial-background">
 	<div id="fronttestimonial" class="itemcont">
 		<h1 id="fronttestimonial-title">
-		What people say about trainmybrain
+		What people say about Train My Brain
 		</h1>
 		<div id="fronttestimonial-slider">
 			<div id="fronttestimonial-slider-text">

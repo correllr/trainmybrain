@@ -52,7 +52,7 @@
 	<div id="hero">
 		<h1 id="hero--title">Train My Brain</h1>
 		<h2 id="hero--subtitle">Pain Relief and Neuro-muscular Rehabilitation</h2>
-		<p id="hero--cta" class="btn open-contact">Contact Us</p>
+		<a id="hero--cta" class="btn" href="/trainmybrain/contact/">Contact Us</a>
 	</div>
 	
 	<?php } else { ?>

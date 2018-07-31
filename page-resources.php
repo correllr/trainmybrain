@@ -5,10 +5,10 @@
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post();
 ?>
 <!----------------- THE CONTENT --------------->
-<h1 id="faq-title" class="itemcont">
+<h1 id="resources-title" class="itemcont">
 	<?php the_title(); ?>
 </h1>
-<div id="faq-content" class="itemcont">
+<div id="resources-content" class="itemcont">
 	<?php the_content(); ?>
 </div>
 

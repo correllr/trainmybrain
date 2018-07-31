@@ -34,9 +34,7 @@ echo trim($output, $separator);
 	<?php the_content(); ?>
 </div>
 
-<h3 id="lastline-contact" class="itemcont">
-	If you have any other questions or would like to make an appointment, <a href="#">click here</a> to contact me.
-</h3>
+<?php get_template_part('lastline'); ?>
 
 
 <?php endwhile; else: ?>
