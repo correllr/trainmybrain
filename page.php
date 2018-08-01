@@ -15,74 +15,25 @@
 <div id="page-content" class="itemcont">
 	<div id="col-neuro" class="two-column">
 		<h1 id="neuro-title">
-			Neurological Symptoms
+			<?php the_field('fn_title'); ?>
 		</h1>
 		<h2 id="neuro-subtitle">
-			Dizziness, Balance and co-ordination problems, headaches, migraines...
+			<?php the_field('fn_subheading'); ?>
 		</h2>
 		<div id="neuro-content">
-			<p>
-				Pain is an important part of how the body works. It warns us about damage and harm. But pain can be caused by all sorts of different things, and sometimes the pain signal is out of control.
-			</p>
-			<h3>
-				Causes of pain
-			</h3>
-			<p>
-				Some pain is caused by obvious trauma, like a wound or an impact. Other pain may be due to chemical causes. Often it is cause by micro-damage in muscles or ligaments, such as the pain of muscles exhausted by a poor posture. Yet other types of pain are purely neurological, with the only changes occurring inside the structure of the brain. It is crucial to differentiate between the causes to be able to solves the problem.
-			</p>
-			<h3>
-				Chronic pain
-			</h3>
-			<p>
-				Pain is a combination of signals coming to our brain through nerves and the brains reaction to the signals. The brain can choose to react to the pain sensation - by doing something to protect the body - or to ignore it. Normally your brain will ignore pain when it knows that the danger has passed, but in times of stress or after prolonged pain with an incompletely treated cause, this may no longer happen. This becomes chronic pain, which can persist even after the original cause of the pain has resolved.
-			</p>
-			<h3>
-				The Cure
-			</h3>
-			<p>
-				The first goal is always to remove the painful stimulus. In some cases this is waiting for the damaged body part to heal, for example after a fracture. More often it involves correcting the incorrect movement or posture which is causing micro-damage. Sometimes it will also require changing the activity of brain areas.
-			<p>
-				If the pain has become chronic, the next step is to allow the brain to ignore pain signals once again and to return to its normal level of activity. This can be a complex process which requires a lot of guidance and hard work.
-			</p>
-			<p>
-				Jake Cooke is an expert in helping you to resolve almost all types of pain, helping you with both the passive parts of the process, such as chiropractic treatment and (modalities?) as well as the active process of exercises and...?
-			</p>
+			<?php the_field('functional_neurology_description'); ?>
 		</div>
 	</div>
 	<div id="col=pain" class="two-column">
 		<h1 id="pain-title">
-			Pain Relief
+			<?php the_field('pain_title'); ?>
 		</h1>
 		<h2 id="pain-subtitle">
-			Neck pain, back pain, shoulder pain...
+			<?php the_field('pain_subheading'); ?>
 		</h2>
 		<div id="pain-content">
-			<p>
-				Pain is an important part of how the body works. It warns us about damage and harm. But pain can be caused by all sorts of different things, and sometimes the pain signal is out of control.
-			</p>
-			<h3>
-				Causes of pain
-			</h3>
-			<p>
-				Some pain is caused by obvious trauma, like a wound or an impact. Other pain may be due to chemical causes. Often it is cause by micro-damage in muscles or ligaments, such as the pain of muscles exhausted by a poor posture. Yet other types of pain are purely neurological, with the only changes occurring inside the structure of the brain. It is crucial to differentiate between the causes to be able to solves the problem.
-			</p>
-			<h3>
-				Chronic pain
-			</h3>
-			<p>
-				Pain is a combination of signals coming to our brain through nerves and the brains reaction to the signals. The brain can choose to react to the pain sensation - by doing something to protect the body - or to ignore it. Normally your brain will ignore pain when it knows that the danger has passed, but in times of stress or after prolonged pain with an incompletely treated cause, this may no longer happen. This becomes chronic pain, which can persist even after the original cause of the pain has resolved.
-			</p>
-			<h3>
-				The Cure
-			</h3>
-			<p>
-				The first goal is always to remove the painful stimulus. In some cases this is waiting for the damaged body part to heal, for example after a fracture. More often it involves correcting the incorrect movement or posture which is causing micro-damage. Sometimes it will also require changing the activity of brain areas.
-			<p>
-				If the pain has become chronic, the next step is to allow the brain to ignore pain signals once again and to return to its normal level of activity. This can be a complex process which requires a lot of guidance and hard work.
-			</p>
-			<p>
-				Jake Cooke is an expert in helping you to resolve almost all types of pain, helping you with both the passive parts of the process, such as chiropractic treatment and (modalities?) as well as the active process of exercises and...?
-			</p>
+			<?php the_field('pain_description'); ?>
+			
 		</div>
 	</div>
 </div>

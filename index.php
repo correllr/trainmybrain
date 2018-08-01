@@ -6,14 +6,14 @@
 	<!--- LEFT COLUMN - EXCERPTS --->
 	<div id="column-left" class="three-column">
 		<div id="excerptcontainer">
-		<h1>Blogs Go Here</h1>
+		<h1>Read the Blogs</h1>
 			<?php echo do_shortcode("[pt_view id=717e826d69]"); ?>
 		</div>
 	</div>
 
 	<!-- RIGHT COLUMN - VIDEOS -->
 	<div id="column-right" class="three-column">
-	<h1>Videos Go Here</h1>
+	<h1>Watch Jake's Videos</h1>
 		<?php echo do_shortcode("[pt_view id=58305eav7e]"); ?>
 
 	</div>
