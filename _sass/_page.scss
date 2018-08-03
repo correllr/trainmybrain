@@ -16,7 +16,7 @@
 
 #page-subbanner-container {
 	position: relative;
-	background-image: url(/trainmybrain/wp-content/uploads/2018/07/Sunset.jpeg);
+	background-image: url(/wp-content/uploads/2018/07/Sunset.jpeg);
 	height: 30vh;
 	background-size: cover;
 	background-position: 50%;
@@ -38,6 +38,15 @@
 	grid-column-gap: 0.5em;
 	grid-row-gap: 0.5em;
 	width: 1200px;
+	@media screen and (max-width: 1200px) {
+		width: 950px;
+	}
+	@media screen and (max-width: 1000px) {
+		display: flex;
+		flex-wrap: wrap;
+		width: 95%;
+		margin: auto;
+	}
 }
 
 
@@ -45,6 +54,11 @@
 	grid-column: span 4;
 	background-size: cover;
 	background-position: center;
+	@media screen and (max-width: 1000px) {
+		width: 100%;
+		padding: 5px 0px;
+		background-image: none!important;
+	}
 	p {
 		padding: 15px;
 	}
@@ -52,6 +66,9 @@
 		border: 3px solid $maincolor;
 		line-height: 1.5rem;
 		font-size: 120%;
+		@media screen and (max-width: 680px) {
+			font-size: 100%;
+		}
 	}
 	span {
 		font-weight: 700;

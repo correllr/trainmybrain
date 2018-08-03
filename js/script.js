@@ -1,6 +1,7 @@
 jQuery( document ).ready(function() {
 // After here
 
+
 //On Page Load
 jQuery('.hidecourse').hide();
 

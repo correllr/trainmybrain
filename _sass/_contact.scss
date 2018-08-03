@@ -23,6 +23,12 @@
 	}
 }
 
+#contact-jake {
+	@media screen and (max-width: 680px) {
+		order: -1;
+	}
+}
+
 #contact-form {
 	max-width: 100%;
 }

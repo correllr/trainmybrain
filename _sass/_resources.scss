@@ -39,6 +39,10 @@
 	width: 45%;
 	margin: 0px auto;
 	min-width: 400px;
+	@media screen and (max-width: $mobilesize) {
+		width: 100%;
+		min-width: 10px;
+	}
 }
 
 .resources-item {

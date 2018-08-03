@@ -37,6 +37,9 @@
 	justify-content: space-between;
 	margin: 20px auto;
 	padding: 5px;
+	@media screen and (max-width: $mobilesize) {
+		padding: 5px 0px;
+	}
 }
 
 #frontteam-text {
@@ -85,7 +88,7 @@
 	padding: 30px;
 	text-align: center;
 	@media screen and (max-width: $mobilesize) {
-		padding: 10px 0px;;
+		padding: 10px 0px;
 	}	
 }
 
@@ -100,6 +103,16 @@
 
 #frontspecial .pt-cv-wrapper {
 	padding: 15px 0px 0px 0px;
+	@media screen and (max-width: $mobilesize) {
+		margin: auto;
+	}
+}
+
+#frontspecial .pt-cv-view {
+	@media screen and (max-width: $mobilesize) {
+		width: 95%;
+		margin: auto;
+	}
 }
 
 #frontspecial .pt-cv-title {
@@ -139,7 +152,7 @@
 
 #fronttestimonial-slider {
 	height: 300px;
-	background-image: url(/trainmybrain/wp-content/uploads/2018/07/CF-Girl-e1532549071847.jpeg);
+	background-image: url(/wp-content/uploads/2018/07/CF-Girl-e1532549071847.jpeg);
 	background-color: $maincolor;
 	background-blend-mode: lighten;
 	background-size: cover;

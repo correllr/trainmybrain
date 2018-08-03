@@ -2,16 +2,21 @@
 
 <!-- HOME ---->
 
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post();
+?>
+
 <div id="frontpage-pitch" class="itemcont">
 	<h1 id="frontpage-pitch-text">
-	Chiropractic and Functional Neurology from Dr Jake Cooke. Treatment of the nervous system and muscles. For relieving back pain, neck pain, hip pain, shoulder pain, headaches ...
+		<?php the_content(); ?>
 	</h1>
-	<a id="frontpage-cta" class="btn" href="/trainmybrain/why-train-my-brain/">
+	<a id="frontpage-cta" class="btn" href="/why-train-my-brain/">
 	Learn More
 	</a>
 </div>
 
-
+<?php endwhile; else: ?>
+	<h3>Read about Train My Brain</h3>
+<?php endif; ?>
 <!----------------- THE CONTENT --------------->
 
 <div id="frontteam" class="itemcont">
