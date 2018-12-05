@@ -15,13 +15,13 @@
 </div>
 
 <?php endwhile; else: ?>
-	<h3>Read about Train My Brain</h3>
+	<h3>Read about <?php bloginfo('name'); ?></h3>
 <?php endif; ?>
 <!----------------- THE CONTENT --------------->
 
 <div id="frontteam" class="itemcont">
 	<h1 id="frontteam-title">
-		About Train My Brain
+		About <?php bloginfo('name'); ?>
 	</h1>
 	<div id="frontteam-block">
 		<img class="frontteam-img" src="http://bcneuro.co.uk/wp-content/uploads/2018/07/Jake-e1531047202743.jpeg" alt="Name" width=250 height=true />
@@ -58,7 +58,7 @@
 <div id="fronttestimonial-background">
 	<div id="fronttestimonial" class="itemcont">
 		<h1 id="fronttestimonial-title">
-		What people say about Train My Brain
+		What people say about <?php bloginfo('name'); ?>
 		</h1>
 		<div id="fronttestimonial-slider">
 			<div id="fronttestimonial-slider-text">
