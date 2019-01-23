@@ -21,18 +21,18 @@
 
 <div id="frontteam" class="itemcont">
 	<h1 id="frontteam-title">
-		About <?php bloginfo('name'); ?>
+		<?php the_field('about_title'); ?>
 	</h1>
 	<div id="frontteam-block">
-		<img class="frontteam-img" src="http://bcneuro.co.uk/wp-content/uploads/2018/07/Jake-e1531047202743.jpeg" alt="Name" width=250 height=true />
+		<img class="frontteam-img" src="<?php the_field('about_photo'); ?>" alt="Name" width=250 height=true />
 		<span id="frontteam-text">
-			<h2 class="frontteam-name">	Jake Cooke
+			<h2 class="frontteam-name"><?php the_field('about_subtitle_1'); ?>
 			</h2>
 			<h3 class="frontteam-info">
-			MChiro, DACNB
+			<?php the_field('about_subtitle_2'); ?>
 			</h3>
 			<p class="frontteam-description">
-			My singular priority is to help you reach your goal. Whether that’s to be pain free, run a marathon or simply pick up your child. My approach is honest, evidence based and patient centered. I am one of the few chiropractors in the UK to have passed the American Chiropractic Neurology Board exams and spend my weekends teaching neurology seminars to chiropractors, physiotherapists and occupational therapists both in the UK and Europe. The nervous system controls your posture, coordination and pain. I use latest research, treatment techniques and rehabilitation exercises to ensure that you are as healthy and strong as you want to be.
+			<?php the_field('about_text'); ?>
 			</p>
 		</span>
 	</div>

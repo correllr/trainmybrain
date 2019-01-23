@@ -21,7 +21,11 @@ jQuery('.hidecourse').hide();
 			jQuery('#mobilemenuopen').fadeIn(800);
 		});
 	
-	
+// Contact
+	// Show referral info
+	jQuery('#referral h3').click(function() {
+		jQuery('#referral p').toggle();
+	});
 
 /* Show/Hide Contact Page
 

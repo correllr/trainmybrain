@@ -18,7 +18,7 @@
 <body <?php body_class(); ?>> 
 <div id="fb-root"></div>
 		<!-- Facebook Feed Script -->
-			<script>(function(d, s, id) {
+			<script async>(function(d, s, id) {
 			  var js, fjs = d.getElementsByTagName(s)[0];
 			  if (d.getElementById(id)) return;
 			  js = d.createElement(s); js.id = id;
@@ -28,9 +28,7 @@
 				
 			
 <!--- SITE HEADER --->	
-	<!--  php tag removed
-	get_template_part('contact'); 
-	-->
+
 	
 	<header class="site-header">
 

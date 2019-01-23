@@ -11,6 +11,22 @@
 <div id="contact-content">
 	<?php the_content(); ?>
 </div>
+<div id="referral"  class="itemcont">
+	<h3>
+	Are you a clinician wanting to refer a patient? Click here</h3>
+	<p>
+	If you would like to refer a patient please send an email to jake@trainmybrain.uk with a summary of the patient's condition. Please attach any relevant imaging, investigations or reports. You're welcome to provide us with the patients contact details and we will arrange the initial consultation. Equally, we're happy to wait for the patient to contact us.
+	</p>
+	<p>
+	After the initial consultation we will send a report of the examination findings and recommendations. In some cases the patient can be referred back to you after 3-4 treatments with some exercises and treatment plan. Other cases may require a longer treatment program. 
+	</p>
+	<p>
+	We will keep you updated on the patients progress and refer them back to you when suitable. 
+	</p>
+	<p>
+	Thank you for trusting us with your patients care.
+	</p>
+</div>
 
 <div id="contact-container" class="itemcont">
 	<div id="contact-clinic-1" class="contact-clinic">

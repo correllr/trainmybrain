@@ -47,6 +47,21 @@
 	box-shadow: none;
 }
 
+#referral { 
+	margin-top: 10px;
+	padding-bottom: 0;
+	h3 {
+	 color: $maincolor;
+	 width: 100%;
+	 text-align: center;
+	
+	}
+	p {
+		display: none;
+		margin: 15px auto;
+	}
+}
+
 
 /* #contact {
 	display: none;

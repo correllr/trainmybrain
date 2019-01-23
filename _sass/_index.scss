@@ -4,6 +4,9 @@
 	width: 100%;
 	max-width: 1600px;
 	margin:auto;
+	@media screen and (max-width: 680px ) {
+		width: calc(100% - 20px);
+	}
 }
 
 #excerptcontainer {
@@ -30,6 +33,8 @@
 	margin:0px auto;
 		@media screen and (max-width: 680px ) {
 			padding: 0px;
+			max-width: 0;
+			min-width: 250px;
 		}
 }
 
@@ -38,6 +43,12 @@
 	max-height: 300px;
 	overflow: hidden;
 	object-fit: contain;
+}
+
+#column-fb {
+	@media screen and (max-width: 680px ) {
+		display: none;
+	}
 }
 
 .pt-cv-wrapper {
