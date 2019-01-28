@@ -12,6 +12,15 @@
 	<a id="frontpage-cta" class="btn" href="/why-train-my-brain/">
 	Learn More
 	</a>
+	<a id="frontpage-cta" class="btn" href="/online-booking/">
+	<nobr>Book Online</nobr>
+	</a>
+	
+	<!----
+	<a id="frontpage-phone" href="callto:+441483382449">
+		Call us on 01483 382449
+	</a>
+	---->
 </div>
 
 <?php endwhile; else: ?>

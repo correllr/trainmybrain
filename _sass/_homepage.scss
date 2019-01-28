@@ -18,7 +18,28 @@
 
 
 #frontpage-cta {
-	margin-top: 10px;
+	margin: 10px 5px 0px;
+	display: inline-block;
+	padding: 0px 2px;
+	line-height: 2rem;
+}
+
+#frontpage-phone {
+	display: block;
+	font-size: 200%;
+	font-weight: 700;
+	text-align: center;
+	color: $maincolor;
+	@media screen and (max-width: 1400px) {
+		font-size: 180%;
+	}
+	@media screen and (max-width: 1200px) {
+		font-size: 160%;
+	}
+	@media screen and (max-width: $mobilesize) {
+		font-size: 140%;
+		padding: 10px 0px;
+	}
 }
 
  // Team

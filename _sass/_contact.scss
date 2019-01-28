@@ -5,6 +5,7 @@
 	justify-content: space-evenly;
 	h3 {
 		color: $maincolor;
+		margin-top: 20px;
 	}
 }
 
@@ -23,9 +24,23 @@
 	}
 }
 
+#clinic-phone {
+	margin: 20px 0px;
+	font-size: 150%;
+	@media screen and (max-width: 1400px) {
+		font-size: 140%;
+	}
+	@media screen and (max-width: 1200px) {
+		font-size: 130%;
+	}
+	@media screen and (max-width: $mobilesize) {
+		font-size: 110%;
+	}	
+}
+
 #contact-jake {
 	@media screen and (max-width: 680px) {
-		order: -1;
+		order: 2;
 	}
 }
 
