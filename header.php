@@ -3,8 +3,15 @@
 	<head>
 		<meta charset="<?php bloginfo('charset'); ?>">
 			<meta name="viewport" content="width=device-width">
-			<meta name="description" content=""/>
-			<title><?php echo get_bloginfo('name'); ?></title>
+			<?php if ( defined('WPSEO_VERSION') ) : ?>
+		<title><?php wp_title(''); ?></title>
+	<?php else : ?>
+		<?php if(is_front_page() || is_home()) : ?>
+			<title><?php bloginfo('name'); ?></title>
+		<?php else : ?>
+			<title><?php wp_title(''); ?> - <?php bloginfo('name'); ?></title>
+		<?php endif; ?>
+<?php endif; ?>
 		
 			<?php wp_head(); ?>
 			

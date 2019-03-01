@@ -5,7 +5,7 @@
 
 function trainmybrain_resources() {
 
-	wp_enqueue_style('style', get_stylesheet_uri());
+	wp_enqueue_style('style', get_stylesheet_uri(), array(), '1.0');
 	wp_enqueue_script('jquery');
 	wp_enqueue_script('script', get_template_directory_uri() . '/js/script.js');
 	wp_enqueue_script('cycle2', get_template_directory_uri() . '/js/cycle2.js');
@@ -13,6 +13,10 @@ function trainmybrain_resources() {
 }
 
 add_action('wp_enqueue_scripts', 'trainmybrain_resources');
+
+
+// title tag
+add_theme_support( 'title-tag' );
 
 
 
