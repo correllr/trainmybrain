@@ -216,8 +216,8 @@
 }
 
 .slider-left {
-	position: relative;
-	right:280px;
+	position: absolute;
+	right: calc(100% - 20px);
 	display: inline;
 	bottom: 50%;
 	z-index: 999;
@@ -227,8 +227,8 @@
 }
 
 .slider-right {
-	position: relative;
-	left: 280px;
+	position: absolute;
+	left: calc(100% - 20px);
 	display: inline;
 	bottom: 50%;
 	z-index: 999;
@@ -254,4 +254,8 @@
 		width:90%;
 		margin: 20px 5px;
 	}
+}
+
+.cycle-slideshow { // Feb '19 fix for chrome
+	width: 100%;
 }
