@@ -26,7 +26,7 @@ jQuery('.hidecourse').hide();
 	jQuery('#referral h3').click(function() {
 		jQuery('#referral p').toggle();
 	});
-
+	
 /* Show/Hide Contact Page
 
 	// Show
@@ -41,7 +41,6 @@ jQuery('.hidecourse').hide();
 		jQuery('#contact').fadeOut(800);		
 	});
 */
-
 
 //END
 });

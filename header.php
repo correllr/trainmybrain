@@ -17,8 +17,8 @@
 			
 	<!---------- FONTS ---------->	
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-		<link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet"> 
-		
+		<link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
+
 		<!--- Cookie consent notice ---->
 		<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
 		<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
@@ -63,7 +63,7 @@
 
 
 		<a id="logo" href="<?php echo home_url(); ?>">
-			<img src="/wp-content/uploads/2018/12/The-Neuro-Muscular-Clinic.png" alt="Neuro-muscular Chiropractor specialised in dizziness" width="100%" height=true>
+			<img src="/wp-content/uploads/2018/12/The-Neuro-Muscular-Clinic.png" alt="Neuro-muscular Chiropractor specialised in dizziness, chiropractic in Woking" width="100%" height=true>
 		</a>
 		<!----
 		<a id="textlogo" href="<?php echo home_url(); ?>">

@@ -8,7 +8,7 @@
 <?php $blogimage = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'blog-banner' ); ?>
 
 <!----------------- THE CONTENT --------------->
-<div id="blog-banner" style="background-image: url('<?php echo $blogimage[0]; ?>') ">
+<div id="blog-banner" style="background-image: url('<?php the_post_thumbnail_url('blog-banner') ?>') ">
 	<h1 id="blog-post-title" class="itemcont">
 		<?php the_title(); ?>
 	</h1>

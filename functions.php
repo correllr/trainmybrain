@@ -6,9 +6,12 @@
 function trainmybrain_resources() {
 
 	wp_enqueue_style('style', get_stylesheet_uri(), array(), '1.0');
+	wp_enqueue_style('slick', get_template_directory_uri() . '/slick/slick.css');
+	wp_enqueue_style('slick', get_template_directory_uri() . '/slick/slick-theme.css');
 	wp_enqueue_script('jquery');
 	wp_enqueue_script('script', get_template_directory_uri() . '/js/script.js');
 	wp_enqueue_script('cycle2', get_template_directory_uri() . '/js/cycle2.js');
+	wp_enqueue_script('slick', get_template_directory_uri() . '/slick/slick.min.js');
 
 }
 
