@@ -22,6 +22,7 @@
 	display: inline-block;
 	padding: 0px 2px;
 	line-height: 2rem;
+	background-color: $maincolor;
 }
 
 #frontpage-phone {
@@ -72,6 +73,7 @@
 #frontteam-text {
 	width: calc(100% - 210px);
 	min-width: 500px;
+	line-height: 1.5rem;
 	@media screen and (max-width: $mobilesize) {
 		width: 100%;
 		min-width: auto;

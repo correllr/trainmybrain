@@ -24,6 +24,17 @@
 	}
 }
 
+#booking-link {
+	width: calc(100% - 40px);
+	margin: auto;
+	text-align: center;
+	display: block;
+	font-size: 140%;
+	color: $maincolor;
+	padding: 20px 0px 0px;
+	cursor: pointer;
+}
+
 #clinic-phone {
 	margin: 20px 0px;
 	font-size: 150%;
@@ -47,6 +58,32 @@
 #contact-form {
 	max-width: 100%;
 }
+
+	// Pricing section
+	#price-row {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin-bottom: 10px;
+	}
+	
+	#price-left {
+		display: flex;
+		flex-wrap: wrap;
+		width: calc(70% - 10px);
+		#price-description {
+			display: block;
+		}
+		#price-title {
+			display: block;
+			font-weight: 700;
+		}
+	}
+	
+	#price-right {
+		width: 30%;
+		font-weight: 500;
+	}
 
 #bcneurolink {
 	display: inline;

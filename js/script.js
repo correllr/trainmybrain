@@ -2,8 +2,9 @@ jQuery( document ).ready(function() {
 // After here
 
 
-//On Page Load
+/*On Page Load
 jQuery('.hidecourse').hide();
+*/
 
 //MENU 
 	// Open
@@ -22,10 +23,17 @@ jQuery('.hidecourse').hide();
 		});
 	
 // Contact
-	// Show referral info
+	/* Show referral info
 	jQuery('#referral h3').click(function() {
 		jQuery('#referral p').toggle();
 	});
+	*/
+	
+	// Scroll to online booking
+	jQuery('#booking-link').click(function() {
+		jQuery('html, body').animate({scrollTop: (jQuery('#contactpage-booking').offset().top)},500);
+	});
+	
 	
 /* Show/Hide Contact Page
 

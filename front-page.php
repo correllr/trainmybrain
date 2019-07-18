@@ -9,7 +9,7 @@
 	<h1 id="frontpage-pitch-text">
 		<?php the_content(); ?>
 	</h1>
-	<a id="frontpage-cta" class="btn" href="/why-train-my-brain/">
+	<a id="frontpage-cta" class="btn" href="/pain-dizziness-balance-posture/">
 	Learn More
 	</a>
 	<a id="frontpage-cta" class="btn" href="/online-booking/">
